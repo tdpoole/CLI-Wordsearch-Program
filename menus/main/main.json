@@ -1,0 +1,32 @@
+{
+    "question": "Welcome to the main menu!\nWhat do you want to do?",
+    "me": "main/main",
+    "canreturn": false,
+    "returnto": null,
+    "options": [
+        {
+            "text": "Solve Wordsearches",
+            "askyesno": false,
+            "command": {
+                "type": "menu",
+                "value": "main/solvemenu"
+            }
+        },
+        {
+            "text": "Generate Wordsearches",
+            "askyesno": true,
+            "command": {
+                "type": "return",
+                "value": "genws"
+            }
+        },
+        {
+            "text": "Exit",
+            "askyesno": true,
+            "command": {
+                "type": "return",
+                "value": "exit"
+            }
+        }
+    ]
+}

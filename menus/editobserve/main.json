@@ -1,0 +1,32 @@
+{
+    "question": "Do you want to observe the wordsearch results, or edit the wordsearch values?",
+    "me": "editobserve/main",
+    "canreturn": false,
+    "returnto": null,
+    "options": [
+        {
+            "text": "Observe",
+            "askyesno": false,
+            "command": {
+                "type": "return",
+                "value": "observe"
+            }
+        },
+        {
+            "text": "Edit",
+            "askyesno": false,
+            "command": {
+                "type": "menu",
+                "value": "editobserve/edit"
+            }
+        },
+        {
+            "text": "Exit",
+            "askyesno": true,
+            "command": {
+                "type": "return",
+                "value": "exit"
+            }
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "question": "Are you sure you want to proceed. You will be asked to re-enter the words that the wordsearch contains.",
+    "me": "editobserve/edit",
+    "canreturn": true,
+    "returnto": "editobserve/main",
+    "options": [
+        {
+            "text": "Proceed",
+            "askyesno": false,
+            "command": {
+                "type": "return",
+                "value": "edit"
+            }
+        }
+    ]
+}

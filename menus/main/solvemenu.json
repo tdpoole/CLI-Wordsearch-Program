@@ -1,0 +1,24 @@
+{
+    "question": "Do you want to Import a wordsearch csv or look at the results to a search?",
+    "me": "main/solvemenu",
+    "canreturn": true,
+    "returnto": "main/main",
+    "options": [
+        {
+            "text": "Import Wordsearch",
+            "askyesno": false,
+            "command": {
+                "type": "return",
+                "value": "importwordsearch"
+            }
+        },
+        {
+            "text": "Observe & Edit Wordsearches",
+            "askyesno": false,
+            "command": {
+                "type": "return",
+                "value": "observeandeditwordsearch"
+            }
+        }
+    ]
+}
